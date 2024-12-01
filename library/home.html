@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #ed45c9;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .nav-links {
+            display: flex;
+            gap: 10px;
+        }
+        .auth-buttons a {
+            padding: 10px 20px;
+            background-color: #ed45c9;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .auth-buttons a:hover {
+            background-color: #ed45c9;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .main-content .section {
+            width: 45%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .main-content .section h2 {
+            color: #ed45c9;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .btn {
+            background-color: #ed45c9;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #ed45c9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Library Management System</h1>
+    </header>
+
+    <nav>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./books.html">Books</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+        <div class="auth-buttons">
+            <a href="./login_form.php">Login</a>
+            <a href="./registry.php">Register</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="section">
+            <h2>Welcome to the Library</h2>
+            <p>Our Library Management System makes it easy to borrow, return, and manage your books. With a simple interface, you can quickly search for books, track borrowed items, and more!</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+        <div class="section">
+            <h2>Manage Your Books</h2>
+            <p>Our system helps you manage your book collection effectively. Add, update, and remove books with just a few clicks. Easily search for your favorite books or explore new ones.</p>
+            <a href="#" class="btn">Explore Books</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Library Management System | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
